@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/test', (req, res) => {
-  res.send("This is a test.")
+  res.send("This is a NEW test.")
 })
 
 app.listen(3000, () => {
